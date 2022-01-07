@@ -29,4 +29,8 @@ Here is our algorithm :
 
 # Model architecture
 
+* 6 sequential conv2d layers
+* 5 linear layers
+
+# Hyperparameters
 
