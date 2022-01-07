@@ -13,6 +13,20 @@ CarRacing-v0 defines "solving" as getting average reward of 900 over 100 consecu
 
 # Learning Algorithm
 
-<img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/ppo%20clip.png?fbclid=IwAR3jx3wnEVaCtAv6biXgtQ6e5oRZVaTqix_TzblHArfSQ40wJDmDtfEYvAk" width="480">
+Proximal Policy Optimization (PPO) with clipped objective is a policy gradient method for reinforcement learning.
 
-Proximal Policy Optimization, or PPO, is a policy gradient method for reinforcement learning.
+In our implementation, we maintain two policy networks. The first one is the current policy that we want to refine. And the second is the policy that we last used to collect samples.
+
+We then compute a ratio between the new policy and the old policy to measure the difference between them.
+
+We construct a new objective function to clip the estimated advantage function if the new policy is far away from the old policy.
+
+If the probability ratio between the new policy and the old policy falls outside the range (1 — ε) and (1 + ε), the advantage function will be clipped.
+
+Here is our algorithm :
+
+<center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/ppo-clip.png" width="600"></center>
+
+# Model architecture
+
+
