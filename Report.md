@@ -34,3 +34,19 @@ Here is our algorithm :
 
 # Hyperparameters
 
+We have used the follwing hyperparameters in order to train the agent:
+* GAMMA : the discount factor 0.99
+* MAX_SIZE : max size of the buffer 2000 
+* BATCH : the batch size of the training is 128 
+* EPS : epsilon value is 0.1
+* LEARNING_RATE : lr is 0.001 
+
+# How to train our agent
+
+# Results
+
+# Ideas for Future Work
+
+We still can improve our results by:
+* Training for more episodes
+* Tuning the hyperparameters
