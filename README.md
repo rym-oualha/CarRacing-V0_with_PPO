@@ -35,6 +35,6 @@ In order to train the agent you have to:
 
   3. Train the agent using Proximal Policy Optimization (PPO).
 
-  4. Iterate until agent reaches an average reward of 900 over 100 consecutive trials (over 2500 episodes)
+  4. Iterate until agent reaches an average reward of 900 over 100 consecutive trials
 
 You can train the agent following the instructions in the notebook *train.ipynb*.
