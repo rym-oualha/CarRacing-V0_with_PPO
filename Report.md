@@ -45,6 +45,7 @@ We have used the follwing hyperparameters in order to train the agent:
 After 1000 episodes, our agent was able to reach an average score of 66.45.
 <center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/episodes.png" width="600"></center>
 <center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/courbe.png" width="600"></center>
+
 # Ideas for Future Work
 
 We still can improve our results by:
