@@ -38,4 +38,4 @@ In order to train the agent you have to:
 
   4. Iterate until agent reaches an average reward of 900 over 100 consecutive trials (over 2500 episodes)
 
-You can train the agent following the instructions in the notebook .ipynb.
+You can train the agent following the instructions in the notebook *train.ipynb*.
