@@ -42,9 +42,13 @@ We have used the follwing hyperparameters in order to train the agent:
 * LEARNING_RATE : lr is 0.001 
 
 # How to train our agent
+In order to train the agent, we initialize the environment and the agent. For each time step, we will evaluate the state of the agent and define the actions to perform by the agent.
+When we reach the score of 66 we stop the training of our agent.
 
 # Results
-
+After 1000 episodes, our agent was able to reach an average score of 66.45.
+<center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/episodes.png" width="600"></center>
+<center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/courbe.png" width="600"></center>
 # Ideas for Future Work
 
 We still can improve our results by:
