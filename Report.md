@@ -1,6 +1,6 @@
 # Introduction
 
-For this project, you will train an car (agent) in a racing environment from the OpenAI Gym toolkit.
+For this project, you will train a car (agent) in a racing environment from the OpenAI Gym toolkit.
 Gym is used for developing and comparing reinforcement learning algorithms.
 
 Reward is -0.1 every frame and +1000/N for every track tile visited, where N is the total number of tiles in track. For example, if you have finished in 732 frames, your reward is 1000 - 0.1*732 = 926.8 points.
@@ -40,10 +40,6 @@ We have used the follwing hyperparameters in order to train the agent:
 * BATCH : the batch size of the training is 128 
 * EPS : epsilon value is 0.1
 * LEARNING_RATE : lr is 0.001 
-
-# How to train our agent
-In order to train the agent, we initialize the environment and the agent. For each time step, we will evaluate the state of the agent and define the actions to perform by the agent.
-When we reach the score of 66 we stop the training of our agent.
 
 # Results
 After 1000 episodes, our agent was able to reach an average score of 66.45.
