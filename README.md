@@ -1,7 +1,7 @@
 # CarRacing-V0_with_PPO
 
 ## Introduction
-For this project, you will train an car (agent) in a racing environment. 
+For this project, you will train a car (agent) in a racing environment. 
 <center><img src="https://github.com/rym-oualha/CarRacing-V0_with_PPO/blob/main/image/result.gif" width="600"></center>
 Reward is -0.1 every frame and +1000/N for every track tile visited, where N is the total number of tiles in track. For example, if you have finished in 732 frames, your reward is 1000 - 0.1*732 = 926.8 points. 
 
