@@ -20,9 +20,11 @@ Clone the repository
 
 git clone https://github.com/rym-oualha/CarRacing-V0_with_PPO.git
 cd CarRacing-V0_with_PPO
-pip install -r requirements.txt
 
 ```
+
+To train your own agent (play with hyperparameters and episodes numbers) use *train.ipynb* and to test our agent use *test.ipynb*.
+You can simply run them with Google Colab or Kaggle Notebooks.
 
 ## Train the agent 
 
