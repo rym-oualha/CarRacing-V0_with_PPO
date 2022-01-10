@@ -5,7 +5,7 @@ Gym is used for developing and comparing reinforcement learning algorithms.
 
 Reward is -0.1 every frame and +1000/N for every track tile visited, where N is the total number of tiles in track. For example, if you have finished in 732 frames, your reward is 1000 - 0.1*732 = 926.8 points.
 
-State consists of 96x96 pixels and there is some indicators shown at the bottom of the window for the state of RGB buffer.
+State consists of 96x96 pixels and there are some indicators shown at the bottom of the window for the state of RGB buffer.
 
 The task is episodic and an episode finishes when all tiles are visited.
 
